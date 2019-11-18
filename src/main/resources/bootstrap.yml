@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://www.lhz520.cn:8888
+      name: ecs-zuul
+      label: master
+      proflie: prod
+  profiles:
+    active: prod
