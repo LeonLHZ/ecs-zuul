@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       uri: http://94.191.119.192:8888
-      name: ecs-zuul
+      name: ecs-zuul,ecs-common
       label: master
       proflie: prod
 logging:
